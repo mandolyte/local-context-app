@@ -1,3 +1,39 @@
+# An experiment on localization using React Contexts
+
+
+
+## Typescript Notes
+
+1. get the latest version of typescript: `npm install -g typescript`
+2. created repo on github and initialized with README; then cloned.
+3. In cloned directory, remove or move the README. The next command overwrites it.
+4. Now run command to start up a TS React (see links):
+```
+$ yarn create react-app local-context-app --template typescript
+```
+5. Test:
+```
+$ cd local-context-app
+$ yarn start
+```
+6. Next added typescript support:
+```
+yarn add typescript @types/node @types/react @types/react-dom @types/jest
+```
+7. Consider adding to compiler options in `tsconfig.json`: `"downlevelIteration": true`; see https://stackoverflow.com/questions/49218765/typescript-and-iterator-type-iterableiteratort-is-not-an-array-type
+
+## Typescript Links
+
+- *Installing Typescript*: https://www.typescriptlang.org/#download-links
+- *The docs*: https://www.typescriptlang.org/docs/home.html
+- *Using React*: https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
+- *Create React App with TS*: https://create-react-app.dev/docs/adding-typescript/
+- *Playground*: https://www.typescriptlang.org/play/index.html#
+and the beta v2 playground: https://www.typescriptlang.org/v2/en/play
+- *React Cheatsheets*: https://github.com/typescript-cheatsheets/react-typescript-cheatsheet#reacttypescript-cheatsheets
+
+# Original README after CRA Bootstrap
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
